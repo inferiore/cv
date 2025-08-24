@@ -42,8 +42,8 @@ export default function Home() {
             <div className="space-y-2">
               <div className="console-prompt">cat contact.json</div>
               <div className="console-output space-y-1">
-                <div>📱 <span className="info">+57 315 382 8958</span></div>
-                <div>📧 <a href="mailto:Ederb1.1c@gmail.com" className="info hover:underline">Ederb1.1c@gmail.com</a></div>
+                <div>📱 <a href="https://wa.me/573153828958?text=Hi%20Eder,%20I%20saw%20your%20portfolio%20and%20I%27m%20interested%20in%20connecting%20with%20you" target="_blank" rel="noopener noreferrer" className="info hover:underline cursor-pointer">+57 315 382 8958</a></div>
+                <div>📧 <a href="mailto:Ederb1.1c@gmail.com?subject=Contact%20from%20your%20portfolio&body=Hi%20Eder,%0A%0AI%20saw%20your%20portfolio%20and%20I%27m%20interested%20in%20connecting%20with%20you." className="info hover:underline">Ederb1.1c@gmail.com</a></div>
                 <div>📍 <span className="text-gray-300">Cartagena, Bolívar, Colombia</span></div>
                 <div>💼 <a href="https://linkedin.com/in/eder-barrios" target="_blank" rel="noopener noreferrer" className="info hover:underline">linkedin.com/in/eder-barrios</a></div>
                 <div>⚡ <a href="https://github.com/inferiore" target="_blank" rel="noopener noreferrer" className="info hover:underline">github.com/inferiore</a></div>
