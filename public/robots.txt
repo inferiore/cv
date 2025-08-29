@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://cv.ederbarrios.online/sitemap.xml
+
+# Crawl-delay for polite crawling
+Crawl-delay: 1
+
+# Block access to admin or private paths (if any in the future)
+Disallow: /admin/
+Disallow: /api/
