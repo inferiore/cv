@@ -15,26 +15,40 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: {
     default:
-      "Eder Barrios - FullStack Software Developer | PHP, React, Laravel Expert",
+      "Eder Barrios - FullStack Software Developer | PHP, React, Laravel, Node.js Expert | Eder Camargo Portfolio",
     template: "%s | Eder Barrios - FullStack Developer",
   },
   description:
     "Experienced Full Stack Developer with 5+ years of expertise in PHP, JavaScript, TypeScript, React, Next.js, Laravel. Building scalable web applications and leading development teams.",
   keywords: [
     "Eder Barrios",
+    "Eder",
+    "Eder Camargo",
+    "Eder portafolio",
+    "Eder portfolio",
+    "inferiore",
     "Full Stack Developer",
     "PHP Developer",
-    "React Developer",
+    "PHP",
+    "Laravel",
     "Laravel Expert",
-    "TypeScript",
+    "React Developer",
+    "React",
+    "Node",
+    "Node.js",
     "JavaScript",
+    "Javascript",
+    "TypeScript",
     "Next.js",
     "Web Development",
     "Software Engineer",
+    "Software Developer",
     "Colombia",
     "Cartagena",
     "EPAM",
     "SourceToad",
+    "ApplaudoStudios",
+    "Elemento43",
   ],
   authors: [
     { name: "Eder Barrios", url: "https://linkedin.com/in/eder-barrios" },
@@ -55,10 +69,10 @@ export const metadata: Metadata = {
     type: "profile",
     locale: "en_US",
     alternateLocale: "es_ES",
-    title: "Eder Barrios - FullStack Software Developer",
+    title: "Eder Barrios - FullStack Software Developer | PHP, React, Laravel, Node.js Expert",
     description:
-      "Experienced Full Stack Developer with 5+ years of expertise in PHP, React, Laravel, and modern web technologies. Currently at EPAM Systems.",
-    siteName: "Eder Barrios Portfolio",
+      "Eder Barrios (Eder Camargo) - Experienced Full Stack Developer with 5+ years of expertise in PHP, React, Laravel, Node.js and modern web technologies. Currently at EPAM Systems.",
+    siteName: "Eder Barrios Portfolio - inferiore",
     images: [
       {
         url: "/og-image.jpg",
@@ -70,9 +84,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Eder Barrios - FullStack Software Developer",
+    title: "Eder Barrios - FullStack Software Developer | PHP, React, Laravel, Node.js",
     description:
-      "Full Stack Developer specializing in PHP, React, Laravel, and modern web technologies.",
+      "Eder Barrios (Eder Camargo) - Full Stack Developer specializing in PHP, React, Laravel, Node.js and modern web technologies.",
     images: ["/og-image.jpg"],
   },
   verification: {

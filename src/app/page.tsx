@@ -14,9 +14,10 @@ export default function Home() {
     "@context": "https://schema.org",
     "@type": "Person",
     name: "Eder Barrios",
+    alternateName: ["Eder Camargo", "Eder", "inferiore"],
     jobTitle: "Full Stack Software Developer",
     description:
-      "Experienced Full Stack Developer with 5+ years of expertise in PHP, JavaScript, TypeScript, React, Next.js, Laravel",
+      "Eder Barrios (Eder Camargo) - Experienced Full Stack Developer with 5+ years of expertise in PHP, JavaScript, TypeScript, React, Next.js, Laravel, Node.js",
     url: "https://cv.ederbarrios.online",
     sameAs: [
       "https://linkedin.com/in/eder-barrios",
@@ -33,6 +34,7 @@ export default function Home() {
     knowsAbout: [
       "PHP",
       "JavaScript",
+      "Javascript",
       "TypeScript",
       "React",
       "Next.js",
@@ -40,10 +42,14 @@ export default function Home() {
       "Angular",
       "Laravel",
       "Node.js",
+      "Node",
       "Python",
       "MySQL",
       "AWS",
       "Docker",
+      "Full Stack Development",
+      "Web Development",
+      "Software Development",
     ],
     alumniOf: {
       "@type": "CollegeOrUniversity",
@@ -96,9 +102,9 @@ export default function Home() {
                 <div className="console-prompt">whoami</div>
                 <div className="console-output">
                   <h1 className="text-2xl md:text-4xl font-bold highlight">
-                    Eder Barrios
+                    Eder Barrios (Eder Camargo) | inferiore
                   </h1>
-                  <p className="text-lg success">Full Stack Developer</p>
+                  <p className="text-lg success">Full Stack Developer - PHP, Laravel, React, Node.js Expert</p>
                 </div>
               </header>
 
@@ -166,12 +172,11 @@ export default function Home() {
                 </h2>
                 <div className="console-output">
                   <p className="text-gray-300 leading-relaxed">
-                    Results-driven software developer with a strong commitment
-                    to delivering high-quality solutions that create value for
-                    clients, organizations, and stakeholders. Focused on
-                    building collaborative relationships and achieving
-                    measurable outcomes through technical excellence and
-                    professional integrity.
+                    Eder Barrios (Eder Camargo) is a results-driven software developer with a strong commitment
+                    to delivering high-quality PHP, Laravel, React, and Node.js solutions that create value for
+                    clients, organizations, and stakeholders. Specialized in JavaScript development with 
+                    extensive experience building collaborative relationships and achieving
+                    measurable outcomes through technical excellence and professional integrity.
                   </p>
                 </div>
               </section>
@@ -184,17 +189,17 @@ export default function Home() {
                   <div className="grid grid-cols-2 md:grid-cols-4 gap-2 mt-2">
                     {[
                       "PHP",
+                      "Laravel",
                       "JavaScript",
+                      "Node.js",
+                      "React",
                       "TypeScript",
                       "Python",
-                      "React",
                       "Next.js",
                       "Vue.js",
                       "Angular",
-                      "Laravel",
                       "Nest.js",
                       "Flask",
-                      "Node.js",
                       "MySQL",
                       "SQL Server",
                       "Redis",

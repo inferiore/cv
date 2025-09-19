@@ -1,6 +1,10 @@
 User-agent: *
 Allow: /
 
+# Eder Barrios (Eder Camargo) - Full Stack Developer Portfolio
+# PHP, Laravel, React, Node.js, JavaScript Expert
+# GitHub: inferiore | Portfolio: cv.ederbarrios.online
+
 # Sitemaps
 Sitemap: https://cv.ederbarrios.online/sitemap.xml
 
