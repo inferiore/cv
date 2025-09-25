@@ -225,7 +225,7 @@ export default function Home() {
               {/* Deployed Projects */}
               <section className="space-y-2" aria-labelledby="projects-heading">
                 <h2 id="projects-heading" className="console-prompt">
-                  find ./projects -type f -name "*.deployed"
+                  find ./projects -type f -name &quot;*.deployed&quot;
                 </h2>
                 <div className="console-output space-y-4">
                   <div className="experience-item">
