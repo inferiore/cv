@@ -104,7 +104,9 @@ export default function Home() {
                   <h1 className="text-2xl md:text-4xl font-bold highlight">
                     Eder Barrios (Eder Camargo) | inferiore
                   </h1>
-                  <p className="text-lg success">Full Stack Developer - PHP, Laravel, React, Node.js Expert</p>
+                  <p className="text-lg success">
+                    Full Stack Developer - PHP, Laravel, React, Node.js Expert
+                  </p>
                 </div>
               </header>
 
@@ -172,11 +174,14 @@ export default function Home() {
                 </h2>
                 <div className="console-output">
                   <p className="text-gray-300 leading-relaxed">
-                    Eder Barrios (Eder Camargo) is a results-driven software developer with a strong commitment
-                    to delivering high-quality PHP, Laravel, React, and Node.js solutions that create value for
-                    clients, organizations, and stakeholders. Specialized in JavaScript development with 
-                    extensive experience building collaborative relationships and achieving
-                    measurable outcomes through technical excellence and professional integrity.
+                    Eder Barrios (Eder Camargo) is a results-driven software
+                    developer with a strong commitment to delivering
+                    high-quality PHP, Laravel, React, and Node.js solutions that
+                    create value for clients, organizations, and stakeholders.
+                    Specialized in JavaScript development with extensive
+                    experience building collaborative relationships and
+                    achieving measurable outcomes through technical excellence
+                    and professional integrity.
                   </p>
                 </div>
               </section>
@@ -188,12 +193,12 @@ export default function Home() {
                 <div className="console-output">
                   <div className="grid grid-cols-2 md:grid-cols-4 gap-2 mt-2">
                     {[
-                      "PHP",
-                      "Laravel",
                       "JavaScript",
                       "Node.js",
                       "React",
                       "TypeScript",
+                      "PHP",
+                      "Laravel",
                       "Python",
                       "Next.js",
                       "Vue.js",
@@ -213,6 +218,107 @@ export default function Home() {
                         {tech}
                       </span>
                     ))}
+                  </div>
+                </div>
+              </section>
+
+              {/* Deployed Projects */}
+              <section className="space-y-2" aria-labelledby="projects-heading">
+                <h2 id="projects-heading" className="console-prompt">
+                  find ./projects -type f -name "*.deployed"
+                </h2>
+                <div className="console-output space-y-4">
+                  <div className="experience-item">
+                    <h3 className="text-lg font-semibold highlight">
+                      Library Management System
+                    </h3>
+                    <div className="flex flex-col sm:flex-row sm:items-center gap-2 text-sm text-gray-400 mb-2">
+                      <div>
+                        🚀{" "}
+                        <a
+                          href="https://library.ederbarrios.online/login"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="info hover:underline"
+                        >
+                          library.ederbarrios.online
+                        </a>
+                      </div>
+                    </div>
+                    <div className="flex flex-col sm:flex-row sm:items-center gap-2 text-sm text-gray-400 mb-2">
+                      <div>
+                        📂{" "}
+                        <a
+                          href="https://github.com/inferiore/library-front"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="info hover:underline"
+                        >
+                          Frontend Repository
+                        </a>
+                      </div>
+                      <div>
+                        🔧{" "}
+                        <a
+                          href="https://github.com/inferiore/library-back"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="info hover:underline"
+                        >
+                          Backend Repository
+                        </a>
+                      </div>
+                    </div>
+                    <p className="text-sm text-gray-300 mb-3">
+                      Full-stack library management application with real-time
+                      data synchronization, role-based authentication, and
+                      responsive design. Features comprehensive book management,
+                      RESTful API with JWT authentication, and modern React
+                      architecture.
+                    </p>
+                    <div className="mt-2 space-x-1 flex flex-wrap gap-1">
+                      <span className="tech-tag">React 19</span>
+                      <span className="tech-tag">TypeScript</span>
+                      <span className="tech-tag">PHP 8.2+</span>
+                      <span className="tech-tag">Laravel 12</span>
+                      <span className="tech-tag">MySQL</span>
+                      <span className="tech-tag">Laravel Sanctum</span>
+                      <span className="tech-tag">Docker</span>
+                    </div>
+                  </div>
+
+                  <div className="experience-item">
+                    <h3 className="text-lg font-semibold highlight">
+                      Online Survey Creator
+                    </h3>
+                    <div className="flex flex-col sm:flex-row sm:items-center gap-2 text-sm text-gray-400 mb-2">
+                      <div>
+                        📂{" "}
+                        <a
+                          href="https://github.com/inferiore/online-survey"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="info hover:underline"
+                        >
+                          GitHub Repository
+                        </a>
+                      </div>
+                    </div>
+                    <p className="text-sm text-gray-300 mb-3">
+                      Comprehensive survey creation platform supporting multiple
+                      question types (rating, multiple-choice, comments). Built
+                      with modern PHP/Laravel backend and responsive Tailwind
+                      CSS frontend with 95%+ test coverage.
+                    </p>
+                    <div className="mt-2 space-x-1 flex flex-wrap gap-1">
+                      <span className="tech-tag">PHP 8.2+</span>
+                      <span className="tech-tag">Laravel 10</span>
+                      <span className="tech-tag">MySQL</span>
+                      <span className="tech-tag">Tailwind CSS</span>
+                      <span className="tech-tag">Vite</span>
+                      <span className="tech-tag">Docker</span>
+                      <span className="tech-tag">PHPUnit</span>
+                    </div>
                   </div>
                 </div>
               </section>
